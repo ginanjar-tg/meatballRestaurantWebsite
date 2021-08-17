@@ -32,7 +32,7 @@ const desertTexture = new THREE.TextureLoader().load('desert.jpg');
 scene.background = desertTexture;
 
 // Avatar
-const bakso = new THREE.Mesh(new THREE.BoxGeometry(6, 3, 3), new THREE.MeshBasicMaterial({ mcolor: 0xffa500 }));
+const bakso = new THREE.Mesh(new THREE.BoxGeometry(6, 3, 3), new THREE.MeshBasicMaterial({ color: 0xffa500 }));
 bakso.position.z = -3;
 bakso.position.x = -3;
 
