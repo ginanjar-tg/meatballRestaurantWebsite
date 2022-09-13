@@ -28,8 +28,8 @@ scene.add(pointLight, ambientLight);
 // const controls = new OrbitControls(camera, renderer.domElement);
 
 // Background
-const desertTexture = new THREE.TextureLoader().load('background.png');
-scene.background = desertTexture;
+const bgTexture = new THREE.TextureLoader().load('background.png');
+scene.background = bgTexture;
 
 // Avatar
 const baksoTexture = new THREE.TextureLoader().load('bakso.jpg');
