@@ -28,7 +28,7 @@ scene.add(pointLight, ambientLight);
 // const controls = new OrbitControls(camera, renderer.domElement);
 
 // Background
-const desertTexture = new THREE.TextureLoader().load('desert.jpg');
+const desertTexture = new THREE.TextureLoader().load('background.png');
 scene.background = desertTexture;
 
 // Avatar
