@@ -6,6 +6,9 @@ canvas {
   left: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
 
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
